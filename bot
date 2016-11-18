@@ -1,0 +1,6 @@
+#! /usr/bin/env ruby
+require File.expand_path('../lib/bot', __FILE__)
+
+Bot.stdout_message "Hi I'am a robot, please give me a command!"
+Bot.run
+

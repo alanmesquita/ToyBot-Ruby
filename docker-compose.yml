@@ -1,0 +1,8 @@
+bot:
+  tty: true
+  stdin_open: true
+  container_name: bot
+  build: .
+  command: ./bot
+  volumes:
+    - .:/bot
